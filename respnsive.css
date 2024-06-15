@@ -1,0 +1,790 @@
+@media (max-width:600px) {
+
+    .main {
+        width: 100vw;
+        position: relative;
+        overflow-x: hidden;
+        height: 100%;
+    }
+
+    .header {
+        width: 100%;
+        height: 65vh;
+    }
+
+    .navbar {
+        height: 11vh;
+        width: 100%;
+    }
+
+    .logo {
+        width: 25vw;
+    }
+
+    .logo img {
+        width: 25vw;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .nav {
+        background-color: #081b29;
+    }
+
+    .menu {
+        /* display: none; */
+        width: 100vw;
+        position: absolute;
+        left: 0;
+        z-index: -1;
+        top: -235%;
+        height: 30vh;
+        transition: cubic-bezier(0.19, 1, 0.22, 1) .4s;
+        padding-left: 4vw;
+        padding-top: 5vh;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        background-color: #081b29;
+    }
+
+    .items {
+        height: fit-content;
+    }
+
+    .items a {
+        font-size: 5vw;
+    }
+
+    .whatsapp {
+        width: 55vw;
+        justify-content: space-between;
+    }
+
+    .whatsapp a i {
+        font-size: 3.3vw;
+    }
+
+    .whatsapp a {
+        font-size: 2.8vw;
+        margin-top: -1vw;
+        padding: 3vw;
+    }
+
+    .button_toggle {
+        padding: 1vw;
+        display: block;
+    }
+
+    .button_toggle i {
+        color: #fff;
+        font-weight: 800;
+        font-size: 7vw;
+    }
+
+    .header_swiper {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .content {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .text h1 {
+        font-size: 6vw;
+    }
+
+    .text p {
+        font-size: 4vw;
+    }
+
+    .text2 {
+        padding-top: 0vw;
+        margin-top: -4vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .btn_layer {
+        width: 24vw;
+        height: 4vh;
+    }
+
+    .text2 h4 {
+        font-size: 3vw;
+    }
+
+    .text .btn a {
+        font-size: 3vw;
+    }
+
+    .text .btn i {
+        font-size: 3vw;
+        margin-right: 1vw;
+        margin-top: .2vw;
+    }
+
+    .btn_text2 a {
+        font-size: 3vw;
+        padding: 1.6vw 2.6vw;
+    }
+
+    .header_swiper_next_btn,
+    .header_swiper_prev_btn {
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+    }
+
+    .about_page {
+        height: 80vh;
+    }
+
+    .about {
+        height: 100%;
+        /* position: relative; */
+        flex-direction: column;
+    }
+
+    .left_about {
+        width: 90%;
+        position: relative;
+        z-index: 9;
+        height: 87%;
+        padding: 0 7vw;
+        /* text-align: center; */
+        background-color: #fff;
+    }
+
+    .left_about h1 {
+        font-size: 5vw;
+    }
+
+    .left_about #para_about p {
+        font-size: 2.5vw;
+        line-height: 3vw;
+    }
+
+    .left_about .circle {
+        width: 30px;
+        height: 30px;
+    }
+
+    .left_about #sports p {
+        font-size: 2vw;
+    }
+
+    #read_more {
+        width: 30vw;
+    }
+
+    #read_more a {
+        font-size: 2.3vw;
+        padding: 2vw 4vw;
+    }
+
+    #box2left {
+        width: 70%;
+    }
+
+    #box2leftcont {
+        width: 85%;
+        right: -26%;
+        height: auto;
+    }
+
+    #box2leftcont p {
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+
+    #box2leftimg2 {
+        width: 42%;
+        height: 52%;
+    }
+
+    #box2leftimg1 {
+        width: 50%;
+        height: 78%;
+    }
+
+    /* setcion gsap */
+    #section2 {
+        height: 30vh;
+    }
+
+    .car_own_cont {
+        width: 270vh;
+    }
+
+    .car_own_box {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .car_own {
+        height: 19vh;
+    }
+
+    .service_top_part h1 {
+        font-size: 7vw;
+    }
+
+    .service_top_part h5 {
+        font-size: 2.5vw;
+    }
+
+    .service_bottom_part {
+        padding: 5vw 5vw;
+    }
+
+    .service_top_part p {
+        font-size: 2.5vw;
+    }
+
+    .car_head1 h5 {
+        font-size: 3.4vw;
+    }
+
+    .service_top_part {
+        height: 12vh;
+    }
+
+    .service_box_all {
+        width: 43vw;
+        height: 47vw;
+    }
+
+    .design_box {
+        width: 50px;
+        height: 50px
+    }
+
+    .circle_design {
+        width: 40px;
+        height: 40px;
+    }
+
+    .service_box_all h1 {
+        font-size: 5vw;
+    }
+
+    .cars_top {
+        min-height: 30vh;
+        padding-top: 2vw;
+        /* justify-content: center; */
+        /* gap: 7vw; */
+    }
+
+    .car_head2 p {
+        font-size: 2.3vw;
+    }
+
+    .car_head1 p {
+        font-size: 2.6vw;
+    }
+
+    .car_head3 {
+        width: 85%;
+        height: 7vh;
+    }
+
+    .opt1 button {
+        font-size: 2.5vw;
+        padding: 1.3vw 2vw;
+    }
+
+
+    .car_head2 h1 {
+        font-size: 5.5vw;
+    }
+
+    .cars_bottom {
+        gap: 20px;
+    }
+
+    .car_card {
+        width: 40vw;
+        height: auto;
+    }
+
+    .car_bt_head h1 {
+        font-size: 3.5vw;
+    }
+
+    .display_none {
+        display: none;
+    }
+
+    .car_bt_items {
+        width: 10vw;
+    }
+
+    .car_bt_center {
+        height: 5vh;
+    }
+
+    .car_bt_items p {
+        font-size: 2.4vw;
+    }
+
+    .car_bt_buttons {
+        height: 4vh;
+    }
+
+    .car_btn_rent h3 {
+        font-size: 3vw;
+    }
+
+    .book_now {
+        font-size: 2.5vw;
+        padding: 1vw 2vw;
+    }
+
+
+
+
+
+
+
+
+    /* footer */
+    .copyright {
+        height: 0;
+    }
+
+    #footertop {
+        width: 95%;
+        height: 27%
+    }
+
+    #footertop h1 {
+        width: 50%;
+        text-align: center;
+        font-size: 4.5vw;
+    }
+
+    #footertop>p {
+        width: 80%;
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    #ftrtopbox>button {
+        width: 30px;
+        height: 30px;
+    }
+
+    #footertopdets {
+        width: 96%;
+    }
+
+    #ftrcontentbox1_logo>h1 {
+        font-size: 5vw;
+    }
+
+    .ftrcontent {
+        flex-direction: column;
+        height: 85%;
+    }
+
+    #ftrcontentbox1 {
+        /* margin-left: 6vw; */
+        width: 88%;
+    }
+
+    #ftrimplinkbox {
+        width: 88%;
+    }
+
+    #footerbtminr {
+        justify-content: center;
+    }
+
+    #address_box {
+        width: 86%;
+    }
+
+    #ftrcontentbox1>p {
+        font-size: 2.5vw;
+        line-height: 2.5vw;
+    }
+
+    #ftrcontentbox1>h1 {
+        font-size: 3.6vw;
+    }
+
+    #ftrimplinkbox {
+        height: 57%;
+        border-left: none;
+    }
+
+    #ftrimplinkbox>h1 {
+        font-size: 3.7vw;
+    }
+
+    #linkbox>a {
+        font-size: 2.5vw;
+    }
+
+    #address_box>div>a {
+        width: 35px;
+        height: 35px;
+    }
+
+    #address_box>div>a i {
+        font-size: 3vw;
+    }
+
+    #address_box>h1 {
+        font-size: 3.7vw;
+    }
+
+    #address_box>h4 {
+        font-size: 2.3vw;
+    }
+
+    #address_box>a {
+        font-size: 2.1vw;
+    }
+
+    .services {
+        width: 97vw;
+    }
+}
+
+
+
+@media screen and (max-width:600px) {
+
+    #works_section {
+        width: 100%;
+        height: 110vh;
+        /* background-color: #7a4646; */
+        font-family: gilroy;
+        z-index: 1;
+        position: relative;
+
+    }
+
+    #works_top {
+        width: 100%;
+        height: 15%;
+        /* background-color: #010f4e; */
+        position: relative;
+    }
+
+    #works_top>h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 9vw;
+        text-align: center;
+        width: 100%;
+        text-transform: uppercase;
+        transform: translate(-50%, -50%);
+        color: #eaf1f3;
+    }
+
+    #works_top>p {
+        margin-top: 24vw;
+        font-size: 2.5vw;
+    }
+
+    #works_top>h4 {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        font-size: 7vw;
+        /* color: #222222; */
+        color: #253993;
+        transform: translate(-50%, -50%);
+
+    }
+
+    #works_btm {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 5vw;
+        flex-direction: column;
+        /* background-color: #222222; */
+    }
+
+    .works_btm_boxes {
+        width: 80vw;
+        height: 20%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+    .works_btm_boxeslast {
+        width: 80vw;
+        height: 20%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+    .works_btm_boxes>h1 {
+        font-size: 10vw;
+        /* font-weight: 700; */
+        letter-spacing: 0.7vw;
+        text-transform: uppercase;
+        color: #eaf1f3;
+    }
+
+    .works_btm_boxeslast>h1 {
+        font-size: 10vw;
+        /* font-weight: 700; */
+        letter-spacing: 0.7vw;
+        text-transform: uppercase;
+        color: #eaf1f3;
+    }
+
+    #works_btm_boxesinr {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+    }
+
+    #works_btm_boxesinr>h2 {
+        text-align: center;
+        color: #253993;
+    }
+
+    #works_btm_boxesinr>p {
+        text-align: center;
+        color: #555555;
+    }
+
+    .works_btm_boxes::after {
+        display: none;
+        position: absolute;
+        right: -8.5vw;
+        width: 200px;
+        height: 1px;
+        content: '';
+        overflow: hidden;
+        background-image: -webkit-gradient(linear, left top, right top, color-stop(40%, #ccc), color-stop(0, rgba(255, 255, 255, 0)));
+        background-image: -webkit-linear-gradient(left, #000000 40%, rgba(255, 255, 255, 0) 0);
+        background-image: -o-linear-gradient(left, #000000 40%, rgba(255, 255, 255, 0) 0);
+        background-image: linear-gradient(to right, #2e31f8ac 40%, rgba(255, 255, 255, 0) 0);
+        -webkit-background-size: 7px 1px;
+        background-size: 7px 1px;
+        background-repeat: repeat-x;
+        top: 170px;
+        -webkit-transform: rotate(50deg);
+        -ms-transform: rotate(50deg);
+        transform: rotate(50deg);
+    }
+
+    #odd::after {
+        -webkit-transform: rotate(-50deg);
+        -ms-transform: rotate(-50deg);
+        transform: rotate(-50deg);
+    }
+
+    #odd {
+        /* display: flex; */
+        flex-direction: column;
+        /* flex-direction: column-reverse; */
+    }
+
+    #oddbx {
+        flex-direction: column;
+    }
+
+    #parallaxsection {
+        background: url('https://images.pexels.com/photos/1157417/pexels-photo-1157417.jpeg') repeat fixed 100%;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        z-index: -1;
+        height: 70vh;
+        width: 100%;
+        overflow: hidden;
+        /* transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s; */
+    }
+
+    /* #parallaxsection:hover{
+    transform: scale(1.1);
+} */
+
+    #parallaxinner {
+        width: 100%;
+        height: 100%;
+        background-color: #0303049e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: gilroy;
+
+
+    }
+
+    #parallaxinnertext>h3 {
+        font-size: 2.9vw;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: #f5b754;
+        margin-bottom: 2vw;
+        text-transform: uppercase;
+
+    }
+
+    #parallaxinnertext {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #parallaxinnertext>h2 {
+        font-size: 7.5vw;
+        text-align: center;
+        font-weight: 500;
+        margin: 1vw 0px;
+        color: whitesmoke;
+        margin-bottom: 5vw;
+    }
+
+    #parallaxinnertext>p {
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        line-height: 3.5vw;
+        font-size: 3.5vw;
+        width: 90%;
+        text-align: center;
+        color: white;
+    }
+
+    #parallaxinnertext>div {
+        margin-top: 10vw;
+        display: flex;
+
+        gap: 7vw;
+    }
+
+    #parallaxinnertext>div>a {
+        width: fit-content;
+        height: fit-content;
+        padding: 3vw 5.5vw;
+        background-color: #f5b754;
+        color: rgb(0, 11, 81);
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: 500;
+        /* position: relative; */
+        /* overflow: hidden; */
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.8s;
+        letter-spacing: 0.2px;
+    }
+
+    #parallaxinnertext>div>a:nth-child(2):hover {
+        background-color: #010f4e;
+        color: #eaf1f3;
+        box-shadow: 5px 5px 0px #f5b754;
+    }
+
+    #parallaxinnertext>div>a:nth-child(1) {
+        border: 1px solid yellow;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+    }
+
+    #parallaxinnertext>div>a:nth-child(1):hover {
+        border: 1px solid #010f4e;
+        background-color: #010f4e;
+        color: #eaf1f3;
+        box-shadow: 5px 5px 0px #f5b754;
+    }
+
+    .textbox {
+        z-index: 1;
+        position: relative;
+        background: none;
+        color: white;
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+        line-height: 2em;
+        padding: 3rem;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+    }
+
+
+    .review-top>h1 {
+        font-size: 7.3vw;
+    }
+
+    .review-top>p {
+        font-size: 3vw;
+    }
+
+    .review-top>h6 {
+        font-size: 2.7vw;
+        margin-top: 4vw;
+    }
+
+    .google-rating {
+        width: 30%;
+        height: 90%;
+    }
+
+    .google-rating>span {
+        font-size: 2.7vw;
+    }
+
+    .google-rating>h5 {
+        i {
+            font-size: 3.3vw;
+        }
+
+        font-size: 3.2vw;
+        margin-top: 3vw;
+    }
+
+    .review-top>div {
+        height: 43%;
+    }
+
+    .review-top {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .reviewbtm>h3 {
+        font-size: 4.2vw;
+    }
+
+    .reviewbtm>h1 {
+        font-size: 5vw;
+        margin-top: 2vw;
+        margin-bottom: 3vw;
+    }
+
+    .reviewbtm>p {
+        font-size: 2.6vw;
+    }
+
+    .reviewbtm>div {
+        margin-top: 5.5vw;
+        font-weight: 600;
+        font-size: 3.3vw;
+    }
+}
