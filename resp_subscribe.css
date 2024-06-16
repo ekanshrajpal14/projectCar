@@ -18,13 +18,23 @@
         }
 
         h1 {
-            font-size: 5.5vw;
+            font-size: 6.5vw;
         }
 
         p {
             font-size: 2.4vw;
             line-height: 15px;
             width: 78%;
+        }
+        li{
+            font-size: 2.5vw;
+            letter-spacing: 1px;
+            width: max-content;
+            padding-right:3vw;
+            border-radius: 10px;
+            font-weight: 800;
+            color: #000000;
+            background-color: #ffffffb0;
         }
     }
 
@@ -89,7 +99,8 @@
     }
 
     .part .maintwo {
-        height: 118vh;
+        min-height: 134vh;
+        padding-top: 15vw;
 
         & .maintwobrand {
             & div {
@@ -100,6 +111,12 @@
                 border: none;
             }
         }
+        h1{
+            font-size: 6.5vw;
+        }
+        p{
+            font-size: 3vw;
+        }
     }
 
     .maintwobrand {
@@ -108,6 +125,7 @@
     }
 
     .part .maintwobtm {
+        margin-top: 12vw;
         p {
             font-size: 3.1vw;
         }
@@ -142,6 +160,17 @@
             }
         }
     }
+        .description {
+            h1 {
+                font-size: 6.5vw;
+                font-weight: 700;
+                margin-bottom: 1vw;
+            }
+            p{
+                font-size: 3vw;
+                line-height: 5vw;
+            }
+        }
 
     .car_type_subscribe h1 {
         font-size: 7vw;

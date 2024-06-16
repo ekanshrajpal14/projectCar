@@ -243,7 +243,8 @@
     }
 
     .service_top_part p {
-        font-size: 2.5vw;
+        font-size: 3vw;
+        width: 80%;
     }
 
     .car_head1 h5 {
@@ -281,7 +282,7 @@
     }
 
     .car_head2 p {
-        font-size: 2.3vw;
+        font-size: 2.8vw;
     }
 
     .car_head1 p {
@@ -300,7 +301,7 @@
 
 
     .car_head2 h1 {
-        font-size: 5.5vw;
+        font-size: 6vw;
     }
 
     .cars_bottom {
@@ -463,7 +464,7 @@
 
     #works_section {
         width: 100%;
-        height: 110vh;
+        height: 115vh;
         /* background-color: #7a4646; */
         font-family: gilroy;
         z-index: 1;
@@ -514,6 +515,7 @@
         align-items: center;
         padding-bottom: 5vw;
         flex-direction: column;
+        padding-top: 3vw;
         /* background-color: #222222; */
     }
 
