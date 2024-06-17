@@ -24,7 +24,7 @@ var arr = [{ name: "Fortuner", type: "luxury", price: "7999", brand: "Toyota", i
 { name: "X5", type: "luxury", price: "22999", brand: "BMW", category: "Luxury SUV", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/bmwa51.jpg", img1: "CollectionsImages/bmwa52.jpg", img2: "CollectionsImages/bmwa53.jpg" },
 
 { name: " A3", type: "luxury", price: "29999", brand: "Audi", idval: "", time: "8HRS/80KMS", category: "Luxury Convertible", year: "", img: "CollectionsImages/AUDIA3-1.jpg", img1: "CollectionsImages/AUDIA3-COMMON.jpg", img2: "CollectionsImages/AUDIA3-3.jpg" },
-    { name: "S-350", type: "luxury", price: "19999", brand: "Mercedes", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/S-350Mercedes1.jpg", img1: "CollectionsImages/S-350Mercedes1.jpg", img2: "CollectionsImages/S-350Mercedes1.jpg" },
+    { name: "S-350", type: "luxury", price: "19999", brand: "Mercedes", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/S350Mercedes1.jpg", img1: "CollectionsImages/S350Mercedes1.jpg", img2: "CollectionsImages/S-350Mercedes1.jpg" },
 { name: "730D", type: "luxury", price: "19999", brand: "BMW", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/730DBMW1.jpg", img1: "CollectionsImages/730DBMW2.jpg", img2: "CollectionsImages/730DBMW3.jpg" },
 { name: "Q7", type: "luxury", price: "19999", brand: "Audi", category: "Luxury SUV", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/AUDIQ7-1.jpg", img1: "CollectionsImages/AUDIQ7-2.jpg", img2: "CollectionsImages/AUDIQ7-3.jpg" },
 // {
@@ -41,7 +41,7 @@ var arr = [{ name: "Fortuner", type: "luxury", price: "7999", brand: "Toyota", i
 { name: "GHOST", type: "luxury", price: "79999", brand: "Rolls Royce", idval: "", time: "8HRS/80KMS", category: "Ultra-Luxury Sedan", year: "", img: "CollectionsImages/GhostRollsRoyce1.jpg", img1: "CollectionsImages/GhostRollsRoyce2.jpg", img2: "CollectionsImages/GhostRollsRoyce3.jpg" },
 
 // self drive cars
-{ name: "Ertiga", type: "self", price: "5999", brand: "Maruti", idval: "", time: "8HRS/80KMS", category: "MPV (Minivan)", year: "", img: "CollectionsImages/ERTIGA1.jpg", img1: "CollectionsImages/ERTIGA2.jpg", img2: "CollectionsImages/ERTIGA3.jpg" },
+{ name: "Ertiga", type: "self", price: "5999", brand: "Maruti", idval: "", time: "8HRS/80KMS", category: "MPV (Minivan)", year: "", img: "CollectionsImages/ERTIGA_1.jpg", img1: "CollectionsImages/ERTIGA2.jpg", img2: "CollectionsImages/ERTIGA3.jpg" },
 // { name: "XL6", type: "self", price: "6499", brand: "", idval: "", time: "8HRS/80KMS", category: "MPV (Minivan)", year: "", img: "CollectionsImages/.jpg", img1: "CollectionsImages/bmwa52.jpg", img2: "CollectionsImages/bmwa53.jpg" },
 // { name: "hexa", type: "self", price: "8999", brand: "tata", idval: "", time: "8HRS/80KMS", category: "SUV", year: "", img: "CollectionsImages/.jpg", img1: "CollectionsImages/bmwa52.jpg", img2: "CollectionsImages/bmwa53.jpg" },
 { name: "Innova crysta", type: "self", price: "9999", brand: "Toyota", idval: "", time: "8HRS/80KMS", category: "MPV (Minivan)", year: "", img: "CollectionsImages/INNOVA1.jpg", img1: "CollectionsImages/INNOVA2.jpg", img2: "CollectionsImages/INNOVA3.jpg" },
@@ -53,7 +53,7 @@ var arr = [{ name: "Fortuner", type: "luxury", price: "7999", brand: "Toyota", i
     name: "I20", type: "self", price: "3999", brand: "Hyundai", idval: "", time: "8HRS/80KMS", category: "Hatchback", year: "", img: "CollectionsImages/I20-1.jpg", img1: "CollectionsImages/hondacity2.jpg", img2: "CollectionsImages/I20-3.jpg"
 },
 {
-    name: "Swift", type: "self", price: "3499", brand: "Maruti", idval: "", time: "8HRS/80KMS", category: "Hatchback", year: "", img: "CollectionsImages/swift1.jpg", img1: "CollectionsImages/swift2.jpg", img2: "CollectionsImages/swift3.jpg"
+    name: "Swift", type: "self", price: "3499", brand: "Maruti", idval: "", time: "8HRS/80KMS", category: "Hatchback", year: "", img: "CollectionsImages/SWIFT1.jpg", img1: "CollectionsImages/SWIFT2.jpg", img2: "CollectionsImages/SWIFT3.jpg"
 },
 // { name: "urban cruiser", type: "self", price: "4999", brand: "", idval: "", time: "8HRS/80KMS", category: "Compact SUV", year: "" , img: "CollectionsImages/.jpg", img1: "CollectionsImages/bmwa52.jpg", img2: "CollectionsImages/bmwa53.jpg" },
     { name: "Kwid/climber", type: "self", price: "4499", brand: "", idval: "", time: "8HRS/80KMS", category: "Hatchback", year: "", img: "CollectionsImages/kwid1.jpg", img1: "CollectionsImages/kwid1.jpg", img2: "CollectionsImages/kwid1.jpg" },
