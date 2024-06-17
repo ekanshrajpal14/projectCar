@@ -70,6 +70,34 @@ a {
     /* font-family: banana; */
     font-family: circular;
 }
+.whatsapp_call_cont{
+    width: 4vw;
+    height: 6.5vw;
+    position: fixed;
+    bottom: 2%;
+    right: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: #000000; */
+    z-index: 99;
+}
+.call_circle,.call_circle1{
+    width: 3vw;
+    height: 3vw;
+    font-size: 1.7vw;
+    /* font-weight: 50; */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: #0065CB;
+}
+.call_circle1{
+    background-color: #1ba650;
+}
 
 .header {
     width: 100%;
@@ -719,7 +747,7 @@ a {
     height: 55vh;
     background-color: #fff;
     padding: 1vw;
-    padding-bottom: 0vw;
+    padding-bottom: 1vw;
     border-radius: 8px;
 }
 

@@ -7,6 +7,18 @@
         height: 100%;
     }
 
+    .whatsapp_call_cont {
+        width: 14vw;
+        height: 20vw;
+    }
+
+    .call_circle,
+    .call_circle1 {
+        width: 9vw;
+        height: 9vw;
+        font-size: 4.7vw;
+    }
+
     .header {
         width: 100%;
         height: 65vh;
@@ -339,6 +351,10 @@
 
     .car_btn_rent h3 {
         font-size: 3vw;
+    }
+
+    .car_btn_rent span {
+        font-size: 2.4vw;
     }
 
     .book_now {
@@ -789,9 +805,10 @@
         font-weight: 600;
         font-size: 3.3vw;
     }
-        .review-section {
-            height: 120vh;
-        }
+
+    .review-section {
+        height: 120vh;
+    }
 
     .box {
         margin-left: auto;
