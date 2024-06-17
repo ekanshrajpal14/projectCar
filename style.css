@@ -169,6 +169,7 @@ a {
 .whatsapp i {
     font-size: 1.5vw;
     margin-right: .5vw;
+    font-weight: 500;
 }
 
 .button_toggle {
@@ -184,7 +185,7 @@ a {
     /* 324952 */
     background-color: #1ba650;
     border-radius: 5px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1vw;
     text-transform: uppercase;
     /* font-family: Eina03-Bold; */
@@ -1729,7 +1730,9 @@ a {
 
 
 
-
+.elfsight-app-5755b4d7-d893-4069-a0f8-611976425b33 a{
+    color: #fff !important;
+}
 
 
 

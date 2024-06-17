@@ -113,7 +113,7 @@ body {
     position: relative;
 }
 
-.about_left_image:hover::before {
+/* .about_left_image:hover::before {
     right: 87%;
     top: 88%;
 }
@@ -122,7 +122,7 @@ body {
     left: 81%;
     bottom: 83.9%;
     border-radius: 0 0 0 20px;
-}
+} */
 
 
 

@@ -32,7 +32,7 @@ body {
         font-weight: 700;
         margin-bottom: 1vw;
         span{
-            color: #deae36;
+            color: #f5b754;
         }
     }
     p{
@@ -103,10 +103,10 @@ body {
     font-size: 1.2vw;
 }
 
-.left_subs .part_three_why_sub button {
+.left_subs .part_three_why_sub a {
     padding: .6vw 1vw;
     border: none;
-    background-color: #f5b754;
+    background-color: #f5b754e7;
     color: #05158e;
     font-weight: 600;
     box-shadow: 7px 7px 1px 0px;
