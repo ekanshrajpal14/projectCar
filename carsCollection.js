@@ -1,11 +1,11 @@
 const main = document.querySelector(".all_car_card_container");
-var arr = [{ name: "Fortuner", type: "luxury", price: "7999", brand: "Toyota", idval: "", time: "8HRS/80KMS", category: "SUV", year: "", img: "CollectionsImages/FORTUNER1.jpg", img1: "CollectionsImages/FORTUNER2.jpg", img2: "CollectionsImages/FORTUNER3.jpg" },
+var arr = [{ name: "Fortuner", type: "luxury", price: "7999", brand: "Toyota", idval: "", time: "8HRS/80KMS", category: "SUV", year: "", img: "CollectionsImages/FORTUNER1.jpg", img1: "CollectionsImages/FORTUNER2.jpg", img2: "CollectionsImages/FORTUNER1.jpg" },
 { name: "Carnival", type: "luxury", price: "9999", brand: "Kia ", category: "Luxury MPV (Minivan)", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/CARNIVAL1.jpg", img1: "CollectionsImages/CARNIVAL2.jpg", img2: "CollectionsImages/CARNIVAL3.jpg" },
 {
     name: "Camry", type: "luxury", price: "9999", brand: "Toyota", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/CAMRY1.jpg", img1: "CollectionsImages/CAMRY2.jpg", img2: "CollectionsImages/CAMRY3.jpg"
 },
 {
-    name: "E-220", type: "luxury", price: "11999", brand: "Mercedes", idval: "", time: "8HRS/80KMS", category: "Luxury Sedan", year: "new", img: "CollectionsImages/e220m1.jpg", img1: "CollectionsImages/e220m2.jpg", img2: "CollectionsImages/carnival1.jpg"
+    name: "E-220", type: "luxury", price: "11999", brand: "Mercedes", idval: "", time: "8HRS/80KMS", category: "Luxury Sedan", year: "new", img: "CollectionsImages/e220m1.jpg", img1: "CollectionsImages/e220m2.jpg", img2: "CollectionsImages/e220m1.jpg"
 },
 {
     name: "520-D", type: "luxury", price: "11999", brand: "BMW", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/520DBMW1.jpg", img1: "CollectionsImages/520DBMW2.jpg", img2: "CollectionsImages/520DBMW3.jpg"
@@ -14,7 +14,7 @@ var arr = [{ name: "Fortuner", type: "luxury", price: "7999", brand: "Toyota", i
 //     // name: "E-220", type: "luxury", price: "9999", brand: "Mercedes", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "old", img: "CollectionsImages/.jpg", img1: "CollectionsImages/e220m2.jpg", img2: "CollectionsImages/carnival1.jpg"
 // },
 
-{ name: "Commuter", type: "luxury", price: "11999", brand: "Toyota", idval: "", time: "8HRS/80KMS", category: "Van", year: "", img: "CollectionsImages/.jpg", img1: "CollectionsImages/e220m2.jpg", img2: "CollectionsImages/carnival1.jpg" },
+    { name: "Commuter", type: "luxury", price: "11999", brand: "Toyota", idval: "", time: "8HRS/80KMS", category: "Van", year: "", img: "CollectionsImages/COMMUTER1.jpg", img1: "CollectionsImages/COMMUTER2.jpg", img2: "CollectionsImages/COMMUTER3.jpg" },
 {
     name: "A7", type: "luxury", price: "12999", brand: "Audi", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/AUDIA7-1.jpg", img1: "CollectionsImages/AUDIA7-COM2.jpg", img2: "CollectionsImages/AUDIA7-3.jpg"
 },
@@ -24,8 +24,8 @@ var arr = [{ name: "Fortuner", type: "luxury", price: "7999", brand: "Toyota", i
 { name: "X5", type: "luxury", price: "22999", brand: "BMW", category: "Luxury SUV", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/bmwa51.jpg", img1: "CollectionsImages/bmwa52.jpg", img2: "CollectionsImages/bmwa53.jpg" },
 
 { name: " A3", type: "luxury", price: "29999", brand: "Audi", idval: "", time: "8HRS/80KMS", category: "Luxury Convertible", year: "", img: "CollectionsImages/AUDIA3-1.jpg", img1: "CollectionsImages/AUDIA3-COMMON.jpg", img2: "CollectionsImages/AUDIA3-3.jpg" },
-{ name: "S-350", type: "luxury", price: "19999", brand: "Mercedes", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/S-350Mercedes1.jpg", img1: "CollectionsImages/S-350Mercedes1.jpg", img2: "CollectionsImages/bmwa53.jpg" },
-{ name: "730D", type: "luxury", price: "19999", brand: "BMW", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/730DBMW1.jpg", img1: "CollectionsImages/730DBMW2.jpg", img2: "CollectionsImages/BMWa53.jpg" },
+    { name: "S-350", type: "luxury", price: "19999", brand: "Mercedes", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/S-350Mercedes1.jpg", img1: "CollectionsImages/S-350Mercedes1.jpg", img2: "CollectionsImages/S-350Mercedes1.jpg" },
+{ name: "730D", type: "luxury", price: "19999", brand: "BMW", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/730DBMW1.jpg", img1: "CollectionsImages/730DBMW2.jpg", img2: "CollectionsImages/730DBMW3.jpg" },
 { name: "Q7", type: "luxury", price: "19999", brand: "Audi", category: "Luxury SUV", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/AUDIQ7-1.jpg", img1: "CollectionsImages/AUDIQ7-2.jpg", img2: "CollectionsImages/AUDIQ7-3.jpg" },
 // {
 // name: "GL-350", type: "luxury", price: "19999", brand: "Mercedes", idval: "", time: "8HRS/80KMS", category: "Luxury SUV", year: "", img: "CollectionsImages/.jpg", img1: "CollectionsImages/bmwa52.jpg", img2: "CollectionsImages/bmwa53.jpg"
@@ -56,7 +56,7 @@ var arr = [{ name: "Fortuner", type: "luxury", price: "7999", brand: "Toyota", i
     name: "Swift", type: "self", price: "3499", brand: "Maruti", idval: "", time: "8HRS/80KMS", category: "Hatchback", year: "", img: "CollectionsImages/swift1.jpg", img1: "CollectionsImages/swift2.jpg", img2: "CollectionsImages/swift3.jpg"
 },
 // { name: "urban cruiser", type: "self", price: "4999", brand: "", idval: "", time: "8HRS/80KMS", category: "Compact SUV", year: "" , img: "CollectionsImages/.jpg", img1: "CollectionsImages/bmwa52.jpg", img2: "CollectionsImages/bmwa53.jpg" },
-{ name: "Kwid/climber", type: "self", price: "4499", brand: "", idval: "", time: "8HRS/80KMS", category: "Hatchback", year: "", img: "CollectionsImages/kwid1.jpg", img1: "CollectionsImages/bmwa52.jpg", img2: "CollectionsImages/bmwa53.jpg" },
+    { name: "Kwid/climber", type: "self", price: "4499", brand: "", idval: "", time: "8HRS/80KMS", category: "Hatchback", year: "", img: "CollectionsImages/kwid1.jpg", img1: "CollectionsImages/kwid1.jpg", img2: "CollectionsImages/kwid1.jpg" },
 { name: "Thar", type: "self", price: "9999", brand: "Mahindra", idval: "", time: "8HRS/80KMS", category: "SUV", year: "", img: "CollectionsImages/THAR1.jpg", img1: "CollectionsImages/THAR2.jpg", img2: "CollectionsImages/THAR3.jpg" },
 {
     name: "A6", type: "self", price: "29999", brand: "Audi", idval: "", time: "8HRS/80KMS", category: "Luxury Sedan", year: "", img: "CollectionsImages/AUDIA6-1.jpg", img1: "CollectionsImages/AUDIA7-COM2.jpg", img2: "CollectionsImages/AUDIA6-3.jpg"
