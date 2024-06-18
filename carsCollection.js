@@ -27,7 +27,7 @@ var arr = [{ name: "Fortuner", type: "luxury", price: "7999", brand: "Toyota", i
 { name: "X5", type: "luxury", price: "22999", brand: "BMW", category: "Luxury SUV", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/bmwa51.jpg", img1: "CollectionsImages/bmwa52.jpg", img2: "CollectionsImages/bmwa53.jpg" },
 
     { name: " A3 Convertible", type: "luxury", price: "29999", brand: "Audi", idval: "", time: "8HRS/80KMS", category: "Luxury Convertible", year: "", img: "CollectionsImages/AUDIA3-1.jpg", img1: "CollectionsImages/AUDIA3-COMMON.jpg", img2: "CollectionsImages/AUDIA3-3.jpg" },
-    { name: "S-350", type: "luxury", price: "19999", brand: "Mercedes", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/S350Mercedes1.jpg", img1: "CollectionsImages/S350Mercedes1.jpg", img2: "CollectionsImages/S350Mercedes2.jpg" },
+    { name: "S-350", type: "luxury", price: "19999", brand: "Mercedes", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/benzS3501.jpg", img1: "CollectionsImages/benzS3502.jpg", img2: "CollectionsImages/benzS3501.jpg" },
 { name: "730D", type: "luxury", price: "19999", brand: "BMW", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/730DBMW1.jpg", img1: "CollectionsImages/730DBMW2.jpg", img2: "CollectionsImages/730DBMW3.jpg" },
 { name: "Q7", type: "luxury", price: "19999", brand: "Audi", category: "Luxury SUV", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/AUDIQ7-1.jpg", img1: "CollectionsImages/AUDIQ7-2.jpg", img2: "CollectionsImages/AUDIQ7-3.jpg" },
 // {
