@@ -419,7 +419,7 @@ body {
     .road_map_image {
         width: 90%;
         height: 100vh;
-        background-image: url(/Original/resp_road.png);
+        background-image: url(Original/resp_road.png);
     }
 
     .checkpoint1 {
