@@ -25,6 +25,9 @@
             #ftrtopbox>button {
                 width: 30px;
                 height: 30px;
+                i{
+                    font-size: 3.4vw;
+                }
             }
         
             #footertopdets {

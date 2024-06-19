@@ -224,7 +224,7 @@ body {
 .subscribe_page_road {
     width: 100%;
     overflow: hidden;
-    height: 80vh;
+    height: 100vh;
     background-color: #fff;
 }
 
@@ -260,15 +260,16 @@ body {
 
 .road_map_data_cont {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     padding-left: 1vw;
 }
 
 .road_map_image {
-    width: 84%;
-    height: 75vh;
-    background-image: url(Original/car_roads.png);
+    width: 90%;
+    /* margin-top: -5vw; */
+    height: 81vh;
+    background-image: url(UpdatedImages/road_map_final.png);
     background-size: contain;
     background-repeat: no-repeat;
     /* background-color: #9543DE; */
@@ -279,8 +280,8 @@ body {
     width: 20vw;
     height: 25vh;
     position: absolute;
-    right: 4.5%;
-    bottom: 29.5%;
+    right: 5%;
+    bottom: 28.5%;
     background-size: contain;
     background-repeat: no-repeat;
     transform: rotateY(-180deg);
@@ -373,7 +374,7 @@ body {
 }
 
 .car_image_holder1 {
-    background-image: url(./UpdatedImages/car_type3.avif);
+    background-image: url(./UpdatedImages/car_type3.jpg);
 }
 
 .car_image_holder4 {
@@ -409,7 +410,7 @@ body {
 @media (max-width:600px) {
 
     .subscribe_page_road {
-        height: 110vh;
+        height: 118vh;
     }
 
     .road_map_container {
@@ -419,7 +420,7 @@ body {
     .road_map_image {
         width: 90%;
         height: 100vh;
-        background-image: url(Original/resp_road.png);
+        background-image: url(UpdatedImages/road_map_resp.png);
     }
 
     .checkpoint1 {
