@@ -394,13 +394,24 @@
     #ftrtopbox>button {
         width: 30px;
         height: 30px;
-        i{
+
+        i {
             font-size: 3.4vw;
         }
     }
 
     #footertopdets {
         width: 96%;
+    }
+
+    #ftrtopbox>a>div>h6 {
+        font-size: 2vw;
+    }
+
+    #ftrtopbox>a>div>h1 {
+        font-size: 1.7vw;
+        width: 100%;
+        word-wrap: break-word;
     }
 
     #ftrcontentbox1_logo>h1 {
