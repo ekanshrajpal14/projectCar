@@ -94,7 +94,7 @@ body {
     height: 37%;
     display: flex;
     width: 75%;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-evenly;
     flex-direction: column;
 }
