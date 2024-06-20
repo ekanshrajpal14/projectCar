@@ -588,3 +588,68 @@ input::-webkit-inner-spin-button {
     /* font-size: 1.3vw; */
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="car_card">
+                            <div class="car_card_top">
+                                <div class="car_img_div">
+                                    <img style="scale: 1.3;" src="CollectionsImages/e220m1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="car_card_bottom">
+                                <div class="car_bt_head">
+                                    <h1>Benz E Class</h1>
+                                </div>
+                                <div class="car_bt_center">
+                                    <div class="car_bt_items">
+                                        <img src="./images/seat.png" alt="">
+                                        <p>4 Seat</p>
+                                    </div>
+                                    <div class="car_bt_items">
+                                        <img src="./images/air-conditioner (1).png" alt="">
+                                        <p>Ac</p>
+                                    </div>
+                                    <div class="car_bt_items">
+                                        <img src="./images/process.png" alt="">
+                                        <p>Manual</p>
+                                    </div>
+                                    <div class="car_bt_items">
+                                        <img src="./images/gas-pump.png" alt="">
+                                        <p>P/D</p>
+                                    </div>
+                                </div>
+                                <div class="car_bt_buttons">
+                                    <div class="car_btn_rent">
+                                        <span>Starting at</span>
+                                        <h3>₹9999</h3>
+                                        <!-- <span>8hr/80KM</span> -->
+                                    </div>
+                                    <div class="car_btn_book">
+                                        <a href="https://api.whatsapp.com/send/?phone=919590268049&text=Hello,%20I%20want%20more%20details%20about%20Benz%20E%20Class!"
+                                            class="book_now">Book Now</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
