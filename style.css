@@ -740,6 +740,11 @@ a {
     justify-content: center;
     padding: 1vw 4vw;
     padding-bottom: 4vw;
+    /* swiper{
+        width: 100% !important;
+        height: 100% !important;
+        background-repeat: no-repeat !important;
+    } */
 }
 
 .car_card {

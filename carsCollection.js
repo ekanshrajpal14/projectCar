@@ -10,14 +10,14 @@ var arr = [{ name: "Fortuner", type: "luxury", price: "7999", brand: "Toyota", i
 {
     name: "520-D", type: "luxury", price: "11999", brand: "BMW", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/520DBMW1.jpg", img1: "CollectionsImages/520DBMW2.jpg", img2: "CollectionsImages/520DBMW3.jpg"
 },
-    {
-        name: "BMW I7 EV ", type: "luxury", price: "11999", brand: "BMW", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/BMWI7-1.jpg", img1: "CollectionsImages/BMWI7-2.jpg", img2: "CollectionsImages/BMWI7-3.jpg"
-    },
+{
+    name: "BMW I7 EV ", type: "luxury", price: "11999", brand: "BMW", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/BMWI7-1.jpg", img1: "CollectionsImages/BMWI7-2.jpg", img2: "CollectionsImages/BMWI7-3.jpg"
+},
 // {
 //     // name: "E-220", type: "luxury", price: "9999", brand: "Mercedes", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "old", img: "CollectionsImages/.jpg", img1: "CollectionsImages/e220m2.jpg", img2: "CollectionsImages/carnival1.jpg"
 // },
 
-    { name: "Commuter", type: "luxury", price: "11999", brand: "Toyota", idval: "", time: "8HRS/80KMS", category: "Van", year: "", img: "CollectionsImages/COMMUTER1.jpg", img1: "CollectionsImages/COMMUTER2.jpg", img2: "CollectionsImages/COMMUTER3.jpg" },
+{ name: "Commuter", type: "luxury", price: "11999", brand: "Toyota", idval: "", time: "8HRS/80KMS", category: "Van", year: "", img: "CollectionsImages/COMMUTER1.jpg", img1: "CollectionsImages/COMMUTER2.jpg", img2: "CollectionsImages/COMMUTER3.jpg" },
 {
     name: "A7", type: "luxury", price: "12999", brand: "Audi", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/AUDIA7-1.jpg", img1: "CollectionsImages/AUDIA7-COM2.jpg", img2: "CollectionsImages/AUDIA7-3.jpg"
 },
@@ -26,8 +26,8 @@ var arr = [{ name: "Fortuner", type: "luxury", price: "7999", brand: "Toyota", i
 { name: "V-class", type: "luxury", price: "21999", brand: "Mercedes", category: "Luxury MPV (Minivan)", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/VClass1.jpg", img1: "CollectionsImages/VClass2.jpg", img2: "CollectionsImages/VCLASS3.jpg" },
 { name: "X5", type: "luxury", price: "22999", brand: "BMW", category: "Luxury SUV", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/bmwa51.jpg", img1: "CollectionsImages/bmwa52.jpg", img2: "CollectionsImages/bmwa53.jpg" },
 
-    { name: " A3 Convertible", type: "luxury", price: "29999", brand: "Audi", idval: "", time: "8HRS/80KMS", category: "Luxury Convertible", year: "", img: "CollectionsImages/AUDIA3-1.jpg", img1: "CollectionsImages/AUDIA3-COMMON.jpg", img2: "CollectionsImages/AUDIA3-3.jpg" },
-    { name: "S-350", type: "luxury", price: "19999", brand: "Mercedes", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/benzS3501.webp", img1: "CollectionsImages/benzS3502.webp", img2: "CollectionsImages/benzS3501.webp" },
+{ name: " A3 Convertible", type: "luxury", price: "29999", brand: "Audi", idval: "", time: "8HRS/80KMS", category: "Luxury Convertible", year: "", img: "CollectionsImages/AUDIA3-1.jpg", img1: "CollectionsImages/AUDIA3-COMMON.jpg", img2: "CollectionsImages/AUDIA3-3.jpg" },
+{ name: "S-350", type: "luxury", price: "19999", brand: "Mercedes", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/benzS3501.webp", img1: "CollectionsImages/benzS3502.webp", img2: "CollectionsImages/benzS3501.webp" },
 { name: "730D", type: "luxury", price: "19999", brand: "BMW", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/730DBMW1.jpg", img1: "CollectionsImages/730DBMW2.jpg", img2: "CollectionsImages/730DBMW3.jpg" },
 { name: "Q7", type: "luxury", price: "19999", brand: "Audi", category: "Luxury SUV", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/AUDIQ7-1.jpg", img1: "CollectionsImages/AUDIQ7-2.jpg", img2: "CollectionsImages/AUDIQ7-3.jpg" },
 // {
@@ -47,7 +47,7 @@ var arr = [{ name: "Fortuner", type: "luxury", price: "7999", brand: "Toyota", i
 { name: "Ertiga", type: "self", price: "5999", brand: "Maruti", idval: "", time: "8HRS/80KMS", category: "MPV (Minivan)", year: "", img: "CollectionsImages/ERTIGA_1.jpg", img1: "CollectionsImages/ERTIGA2.jpg", img2: "CollectionsImages/ERTIGA3.jpg" },
 // { name: "XL6", type: "self", price: "6499", brand: "", idval: "", time: "8HRS/80KMS", category: "MPV (Minivan)", year: "", img: "CollectionsImages/.jpg", img1: "CollectionsImages/bmwa52.jpg", img2: "CollectionsImages/bmwa53.jpg" },
 // { name: "hexa", type: "self", price: "8999", brand: "tata", idval: "", time: "8HRS/80KMS", category: "SUV", year: "", img: "CollectionsImages/.jpg", img1: "CollectionsImages/bmwa52.jpg", img2: "CollectionsImages/bmwa53.jpg" },
-    { name: "Innova crysta", type: "self", price: "9999", brand: "Toyota", idval: "", time: "8HRS/80KMS", category: "MPV (Minivan)", year: "", img: "CollectionsImages/Crysta.jpg", img1: "CollectionsImages/Crysta.jpg", img2: "CollectionsImages/Crysta.jpg" },
+{ name: "Innova crysta", type: "self", price: "9999", brand: "Toyota", idval: "", time: "8HRS/80KMS", category: "MPV (Minivan)", year: "", img: "CollectionsImages/Crysta.jpg", img1: "CollectionsImages/Crysta.jpg", img2: "CollectionsImages/Crysta.jpg" },
 // { name: "Mg hector", type: "self", price: "11999", brand: "", idval: "", time: "8HRS/80KMS", category: "SUV", year: "", img: "CollectionsImages/.jpg", img1: "CollectionsImages/.jpg", img2: "CollectionsImages/.jpg" },
 // { name: "Fortuner", type: "self", price: "13999", brand: "Toyota", idval: "", time: "8HRS/80KMS", category: "SUV", year: "", img: "CollectionsImages/FORTUNER1.jpg", img1: "CollectionsImages/FORTUNER2.jpg", img2: "CollectionsImages/xuv7003.jpg" },
 { name: "XUV 700", type: "self", price: "12999", brand: "Mahindra", idval: "", time: "8HRS/80KMS", category: "SUV", year: "", img: "CollectionsImages/XUV7001.jpg", img1: "CollectionsImages/XUV7002.jpg", img2: "CollectionsImages/XUV7003.jpg" },
@@ -59,7 +59,7 @@ var arr = [{ name: "Fortuner", type: "luxury", price: "7999", brand: "Toyota", i
     name: "Swift", type: "self", price: "3499", brand: "Maruti", idval: "", time: "8HRS/80KMS", category: "Hatchback", year: "", img: "CollectionsImages/SWIFT1.jpg", img1: "CollectionsImages/SWIFT2.jpg", img2: "CollectionsImages/SWIFT3.jpg"
 },
 // { name: "urban cruiser", type: "self", price: "4999", brand: "", idval: "", time: "8HRS/80KMS", category: "Compact SUV", year: "" , img: "CollectionsImages/.jpg", img1: "CollectionsImages/bmwa52.jpg", img2: "CollectionsImages/bmwa53.jpg" },
-    { name: "Kwid/climber", type: "self", price: "4499", brand: "", idval: "", time: "8HRS/80KMS", category: "Hatchback", year: "", img: "CollectionsImages/kwid1.jpg", img1: "CollectionsImages/kwid1.jpg", img2: "CollectionsImages/kwid1.jpg" },
+{ name: "Kwid/climber", type: "self", price: "4499", brand: "", idval: "", time: "8HRS/80KMS", category: "Hatchback", year: "", img: "CollectionsImages/kwid1.jpg", img1: "CollectionsImages/kwid1.jpg", img2: "CollectionsImages/kwid1.jpg" },
 { name: "Thar", type: "self", price: "9999", brand: "Mahindra", idval: "", time: "8HRS/80KMS", category: "SUV", year: "", img: "CollectionsImages/THAR1.jpg", img1: "CollectionsImages/THAR2.jpg", img2: "CollectionsImages/THAR3.jpg" },
 {
     name: "A6", type: "self", price: "29999", brand: "Audi", idval: "", time: "8HRS/80KMS", category: "Luxury Sedan", year: "", img: "CollectionsImages/AUDIA6-1.jpg", img1: "CollectionsImages/AUDIA7-COM2.jpg", img2: "CollectionsImages/AUDIA6-3.jpg"
@@ -157,43 +157,60 @@ function displayArr(arr) {
 displayArr(arr);
 //<button><i class="ri-user-line"></i>5</button>
 
-const otp = document.querySelectorAll(".category");
-otp.forEach((item) => {
-    item.addEventListener("click", () => {
-        const id = item.getAttribute("data-category");
-        const box = document.querySelectorAll(".box");
-        box.forEach((item) => {
-            if (item.getAttribute("data-id") === id) {
-                item.style.display = "block";
-            } else {
-                item.style.display = "none";
-            }
-        });
-    });
+// const otp = document.querySelectorAll("#category");
+// otp.forEach((item) => {
+//     item.addEventListener("click", () => {
+//         const id = item.getAttribute("data-category");
+//         const box = document.querySelectorAll(".box");
+//         box.forEach((item) => {
+//             if (item.getAttribute("data-id") === id) {
+//                 item.style.display = "block";
+//             } else {
+//                 item.style.display = "none";
+//             }
+//         });
+//     });
 
-});
-
-document.querySelector(".submit").addEventListener("click", function (re) {
-    var category = document.querySelector("#category");
-    if (category.value == "all") {
-        displayArr(arr)
-        return;
-    }
-    var newData = arr.filter(function (e) {
-        return e.category == category.value;
-    });
-    if (category.value != "") {
-
-
-
-        displayArr(newData)
-    }
-    else {
-        alert("Please Select Correct Type")
-    }
-
-
-    re.preventDefault();
-
-
+// });
+var allopt = document.querySelectorAll("select");
+document.querySelector("select").addEventListener("click",(a)=>{
 })
+allopt.forEach(function(it){
+    
+ it.addEventListener("click", function (re) {
+
+     console.log(re);
+    var category = document.querySelector("#category");
+    console.log("djab");
+        if (category.value == "all") {
+            displayArr(arr)
+            return;
+        }
+        var newData = arr.filter(function (e) {
+            return e.category == category.value;
+        });
+        if(newData.length == ""){
+            alert("Currently, All cars are booked in this category!!Sorry, You can choose any other category or contact us")
+            category.value =""
+            return;
+        }
+        if (category.value != "") {
+            displayArr(newData)
+        }
+        // else {
+        //     alert("Please Select Correct Type")
+        // }
+        
+        
+        re.preventDefault();
+
+
+    })
+})
+
+
+// allopt.forEach((el)=>{
+//     el.addEventListener("click",function(eaaa){
+//         console.log(eaaa.target);
+//     })
+// })

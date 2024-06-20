@@ -240,7 +240,7 @@ body {
 }
 
 .filter {
-    width: 70%;
+    width:80%;
     height: 10vh;
     margin-bottom: 2vw;
     display: flex;
@@ -261,7 +261,7 @@ body {
     font-size: 1vw;
     display: flex;
     
-    border: 1px solid#9c9c9c;
+    border: 2px solid#747474;
 }
 
 .form {
@@ -290,13 +290,13 @@ body {
     align-items: center;
     /* border-radius: 10px; */
     /* color: #535353; */
-    width: 18vw;
+    width: 25vw;
     font-size: 1vw;
     /* height: 40px; */
     padding-left: 10px;
 
     /* padding-right: 2vw; */
-    border: 1px solid#ddd;
+    border: 2px solid#747474;
 }
 
 .form>div>select:hover {
