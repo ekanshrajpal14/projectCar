@@ -109,7 +109,7 @@
     h1 {
         font-size: 1.4vw;
         font-weight: 900;
-        text-transform: uppercase;
+        text-transform: capitalize;
     }
 
     h2 {
@@ -220,4 +220,23 @@
         box-shadow: 5px 5px 1px rgb(7, 45, 126);
 
     }
+}
+
+
+
+
+
+/* dont know */
+
+
+.classFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.classFlexE {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }

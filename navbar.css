@@ -209,3 +209,15 @@
     /* background-color: rgba(255, 232, 57, 0.223); */
     /* color: #081b29; */
 }
+
+.classFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.classFlexE {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
