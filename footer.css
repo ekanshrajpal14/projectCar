@@ -126,8 +126,24 @@
 .copyright {
     width: 100%;
     height: 10%;
-    /* background-color: antiquewhite; */
     border-top: 1px solid #f5b75459;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8vw;
+}
+
+.copyright h6 {
+    font-size: 1.1vw;
+    font-weight: 400;
+
+    a {
+        text-decoration: underline;
+        color: #ffffff;
+        letter-spacing: .6px;
+        font-weight: 800;
+
+    }
 }
 
 .ftrcontent {
@@ -210,11 +226,7 @@
 
     display: flex;
     flex-direction: column;
-    /* background-color: blanchedalmond; */
-    /* height: 60%; */
     gap: 1vw;
-    /* width: 50%; */
-    /* border-right: 1px solid yellow ; */
     justify-content: space-around;
 }
 
