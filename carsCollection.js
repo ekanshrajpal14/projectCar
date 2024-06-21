@@ -172,12 +172,12 @@ displayArr(arr);
 //     });
 
 // });
-var allopt = document.querySelectorAll("select");
-document.querySelector("select").addEventListener("click",(a)=>{
-})
-allopt.forEach(function(it){
+// var allopt = document.querySelectorAll("select");
+// document.querySelector("select").addEventListener("click",(a)=>{
+// })
+// allopt.forEach(function(it){
     
- it.addEventListener("click", function (re) {
+ document.querySelector("select").addEventListener("change", function (re) {
 
      console.log(re);
     var category = document.querySelector("#category");
@@ -206,7 +206,7 @@ allopt.forEach(function(it){
 
 
     })
-})
+// })
 
 
 // allopt.forEach((el)=>{
