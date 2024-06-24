@@ -283,7 +283,12 @@
     }
 
     .service_box_all h1 {
-        font-size: 5vw;
+        font-size: 5.5vw;
+        color: #ffffff;
+        text-decoration: underline ;
+        
+        font-weight: bold;
+        /* background-color: #0000009f; */
     }
 
     .cars_top {
@@ -618,7 +623,7 @@
     }
 
     #works_top>p {
-        margin-top: 24vw;
+        margin-top: 25vw;
         font-size: 3vw;
     }
 

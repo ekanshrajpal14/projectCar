@@ -951,16 +951,18 @@ a {
     left: 0;
     object-fit: cover;
     object-position: center;
+    filter: brightness(.7);
 }
 
 .service_box_all:hover .service_img_effect {
     transform: scale(1.05);
-    filter: brightness(.6);
+    filter: brightness(.5);
 }
 
 .service_box_all h1 {
     color: #fff;
     position: relative;
+    font-size: 2.2vw;
     z-index: 99;
 }
 
@@ -1009,7 +1011,7 @@ a {
 .br-right-bottom {
     position: absolute;
     bottom: -2px;
-    right: -21px;
+    right: -20px;
     -webkit-transform: rotate(270deg);
     -ms-transform: rotate(270deg);
     transform: rotate(270deg);
@@ -1029,7 +1031,7 @@ a {
 .br-left-top {
     position: absolute;
     top: -20px;
-    left: 1px;
+    left: 0px;
     -webkit-transform: rotate(270deg);
     -ms-transform: rotate(270deg);
     transform: rotate(270deg);

@@ -44,13 +44,13 @@ var arr = [{ name: "Fortuner", type: "luxury", price: "7999", brand: "Toyota", i
 { name: "GHOST", type: "luxury", price: "79999", brand: "Rolls Royce", idval: "", time: "8HRS/80KMS", category: "Ultra-Luxury Sedan", year: "", img: "CollectionsImages/GhostRollsRoyce1.jpg", img1: "CollectionsImages/GhostRollsRoyce2.jpg", img2: "CollectionsImages/GhostRollsRoyce3.jpg" },
 
 // self drive cars
-{ name: "Ertiga", type: "self", price: "5999", brand: "Maruti", idval: "", time: "8HRS/80KMS", category: "MPV (Minivan)", year: "", img: "CollectionsImages/ERTIGA_1.jpg", img1: "CollectionsImages/ERTIGA2.jpg", img2: "CollectionsImages/ERTIGA3.jpg" },
+{ name: "Ertiga", type: "self", price: "3499", brand: "Maruti", idval: "", time: "8HRS/80KMS", category: "MPV (Minivan)", year: "", img: "CollectionsImages/ERTIGA_1.jpg", img1: "CollectionsImages/ERTIGA2.jpg", img2: "CollectionsImages/ERTIGA3.jpg" },
 // { name: "XL6", type: "self", price: "6499", brand: "", idval: "", time: "8HRS/80KMS", category: "MPV (Minivan)", year: "", img: "CollectionsImages/.jpg", img1: "CollectionsImages/bmwa52.jpg", img2: "CollectionsImages/bmwa53.jpg" },
 // { name: "hexa", type: "self", price: "8999", brand: "tata", idval: "", time: "8HRS/80KMS", category: "SUV", year: "", img: "CollectionsImages/.jpg", img1: "CollectionsImages/bmwa52.jpg", img2: "CollectionsImages/bmwa53.jpg" },
-{ name: "Innova crysta", type: "self", price: "9999", brand: "Toyota", idval: "", time: "8HRS/80KMS", category: "MPV (Minivan)", year: "", img: "CollectionsImages/Crysta.jpg", img1: "CollectionsImages/Crysta.jpg", img2: "CollectionsImages/Crysta.jpg" },
+{ name: "Innova crysta", type: "self", price: "3999", brand: "Toyota", idval: "", time: "8HRS/80KMS", category: "MPV (Minivan)", year: "", img: "CollectionsImages/Crysta.jpg", img1: "CollectionsImages/Crysta.jpg", img2: "CollectionsImages/Crysta.jpg" },
 // { name: "Mg hector", type: "self", price: "11999", brand: "", idval: "", time: "8HRS/80KMS", category: "SUV", year: "", img: "CollectionsImages/.jpg", img1: "CollectionsImages/.jpg", img2: "CollectionsImages/.jpg" },
 // { name: "Fortuner", type: "self", price: "13999", brand: "Toyota", idval: "", time: "8HRS/80KMS", category: "SUV", year: "", img: "CollectionsImages/FORTUNER1.jpg", img1: "CollectionsImages/FORTUNER2.jpg", img2: "CollectionsImages/xuv7003.jpg" },
-{ name: "XUV 700", type: "self", price: "12999", brand: "Mahindra", idval: "", time: "8HRS/80KMS", category: "SUV", year: "", img: "CollectionsImages/XUV7001.jpg", img1: "CollectionsImages/XUV7002.jpg", img2: "CollectionsImages/XUV7003.jpg" },
+{ name: "XUV 700", type: "self", price: "7999", brand: "Mahindra", idval: "", time: "8HRS/80KMS", category: "SUV", year: "", img: "CollectionsImages/XUV7001.jpg", img1: "CollectionsImages/XUV7002.jpg", img2: "CollectionsImages/XUV7003.jpg" },
 { name: "City", type: "self", price: "4999", brand: "Honda", idval: "", time: "8HRS/80KMS", category: "Sedan", year: "", img: "CollectionsImages/CITY1.jpg", img1: "CollectionsImages/hondacity2.jpg", img2: "CollectionsImages/hondacity3.jpg" },
 {
     name: "I20", type: "self", price: "3999", brand: "Hyundai", idval: "", time: "8HRS/80KMS", category: "Hatchback", year: "", img: "CollectionsImages/I20-1.jpg", img1: "CollectionsImages/hondacity2.jpg", img2: "CollectionsImages/I20-3.jpg"
@@ -59,7 +59,7 @@ var arr = [{ name: "Fortuner", type: "luxury", price: "7999", brand: "Toyota", i
     name: "Swift", type: "self", price: "3499", brand: "Maruti", idval: "", time: "8HRS/80KMS", category: "Hatchback", year: "", img: "CollectionsImages/SWIFT1.jpg", img1: "CollectionsImages/SWIFT2.jpg", img2: "CollectionsImages/SWIFT3.jpg"
 },
 // { name: "urban cruiser", type: "self", price: "4999", brand: "", idval: "", time: "8HRS/80KMS", category: "Compact SUV", year: "" , img: "CollectionsImages/.jpg", img1: "CollectionsImages/bmwa52.jpg", img2: "CollectionsImages/bmwa53.jpg" },
-{ name: "Kwid/climber", type: "self", price: "4499", brand: "", idval: "", time: "8HRS/80KMS", category: "Hatchback", year: "", img: "CollectionsImages/kwid1.jpg", img1: "CollectionsImages/kwid1.jpg", img2: "CollectionsImages/kwid1.jpg" },
+{ name: "Kwid/climber", type: "self", price: "4499", brand: "Renault", idval: "", time: "8HRS/80KMS", category: "Hatchback", year: "", img: "CollectionsImages/kwid1.jpg", img1: "CollectionsImages/kwid1.jpg", img2: "CollectionsImages/kwid1.jpg" },
 { name: "Thar", type: "self", price: "9999", brand: "Mahindra", idval: "", time: "8HRS/80KMS", category: "SUV", year: "", img: "CollectionsImages/THAR1.jpg", img1: "CollectionsImages/THAR2.jpg", img2: "CollectionsImages/THAR3.jpg" },
 {
     name: "A6", type: "self", price: "29999", brand: "Audi", idval: "", time: "8HRS/80KMS", category: "Luxury Sedan", year: "", img: "CollectionsImages/AUDIA6-1.jpg", img1: "CollectionsImages/AUDIA7-COM2.jpg", img2: "CollectionsImages/AUDIA6-3.jpg"
@@ -78,12 +78,12 @@ var arr = [{ name: "Fortuner", type: "luxury", price: "7999", brand: "Toyota", i
 // non premium car n busses
 
 {
-    name: "Altis 4+1", type: "non", price: "2199", brand: "", idval: "", time: "8HRS/80KMS", category: "Economic Sedan", year: "", img: "CollectionsImages/altis.jpg", img1: "CollectionsImages/altis.jpg", img2: "CollectionsImages/altis.jpg"
+    name: "Altis 4+1", type: "non", price: "2199", brand: "Toyota", idval: "", time: "8HRS/80KMS", category: "Economic Sedan", year: "", img: "CollectionsImages/altis.jpg", img1: "CollectionsImages/altis.jpg", img2: "CollectionsImages/altis.jpg"
 },
 // { name: "city", type: "non", price: "3999", brand: "Honda", idval: "", time: "8HRS/80KMS", category: "Sedan", year: "" , img: "CollectionsImages/.jpg", img1: "CollectionsImages/bmwa52.jpg", img2: "CollectionsImages/bmwa53.jpg" },
 // { name: "ertiga", type: "non", price: "2499", brand: "Maruti", idval: "", time: "8HRS/80KMS", category: "MPV (Minivan)", year: "" , img: "CollectionsImages/.jpg", img1: "CollectionsImages/bmwa52.jpg", img2: "CollectionsImages/bmwa53.jpg" },
 {
-    name: "FOTON 9+1 Executive Van", type: "non", price: "8999", brand: "", idval: "large", time: "8HRS/80KMS", category: "Van", year: "", img: "CollectionsImages/VClass1.jpg", img1: "CollectionsImages/VClass2.jpg", img2: "CollectionsImages/VCLASS3.jpg"
+    name: "FOTON 9+1 Executive Van", type: "non", price: "8999", brand: "Benz", idval: "large", time: "8HRS/80KMS", category: "Van", year: "", img: "CollectionsImages/VClass1.jpg", img1: "CollectionsImages/VClass2.jpg", img2: "CollectionsImages/VCLASS3.jpg"
 },
 { name: "TEMPO TRAVELLER 9+1 SEATER", type: "non", price: "5999", brand: "Tata", idval: "large", time: "8HRS/80KMS", category: "Van", year: "", img: "CollectionsImages/TEMPOVAN1.jpg", img1: "CollectionsImages/TEMPOVAN2.jpg", img2: "CollectionsImages/TEMPOVAN3.jpg" },
 { name: "TEMPO TRAVELLER 12+1 SEATER", type: "non", price: "3999", brand: "Force", idval: "large", time: "8HRS/80KMS", category: "Van", year: "", img: "CollectionsImages/TEMPOTRAVELLER1.jpg", img1: "CollectionsImages/TEMPOTRAVELLER2.jpg", img2: "CollectionsImages/TEMPOTRAVELLER3.jpg" },
