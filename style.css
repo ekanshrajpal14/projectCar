@@ -1740,7 +1740,7 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    overflow: hidden;
+    margin-bottom: 3vw;
 }
 
 .google-rating {
@@ -1757,6 +1757,7 @@ a {
     color: #0d026b;
 
     i {
+                color: gold;
         margin-right: 5px;
     }
 

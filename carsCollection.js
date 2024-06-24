@@ -14,7 +14,7 @@ var arr = [{ name: "Fortuner", type: "luxury", price: "7999", brand: "Toyota", i
     name: "BMW I7 EV ", type: "luxury", price: "11999", brand: "BMW", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "", img: "CollectionsImages/BMWI7-1.jpg", img1: "CollectionsImages/BMWI7-2.jpg", img2: "CollectionsImages/BMWI7-3.jpg"
 },
 // {
-//     // name: "E-220", type: "luxury", price: "9999", brand: "Mercedes", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "old", img: "CollectionsImages/.jpg", img1: "CollectionsImages/e220m2.jpg", img2: "CollectionsImages/carnival1.jpg"
+//     // name: "BMW I7", type: "luxury", price: "39999", brand: "BMW", category: "Luxury Sedan", idval: "", time: "8HRS/80KMS", year: "old", img: "CollectionsImages/.jpg", img1: "CollectionsImages/e220m2.jpg", img2: "CollectionsImages/carnival1.jpg"
 // },
 
 { name: "Commuter", type: "luxury", price: "11999", brand: "Toyota", idval: "", time: "8HRS/80KMS", category: "Van", year: "", img: "CollectionsImages/COMMUTER1.jpg", img1: "CollectionsImages/COMMUTER2.jpg", img2: "CollectionsImages/COMMUTER3.jpg" },
@@ -85,7 +85,7 @@ var arr = [{ name: "Fortuner", type: "luxury", price: "7999", brand: "Toyota", i
 {
     name: "FOTON 9+1 Executive Van", type: "non", price: "8999", brand: "Benz", idval: "large", time: "8HRS/80KMS", category: "Van", year: "", img: "CollectionsImages/VClass1.jpg", img1: "CollectionsImages/VClass2.jpg", img2: "CollectionsImages/VCLASS3.jpg"
 },
-{ name: "TEMPO TRAVELLER 9+1 SEATER", type: "non", price: "5999", brand: "Tata", idval: "large", time: "8HRS/80KMS", category: "Van", year: "", img: "CollectionsImages/TEMPOVAN1.jpg", img1: "CollectionsImages/TEMPOVAN2.jpg", img2: "CollectionsImages/TEMPOVAN3.jpg" },
+{ name: "Mini TEMPO TRAVELLER 7+1 SEATER", type: "non", price: "5999", brand: "Tata", idval: "large", time: "8HRS/80KMS", category: "Van", year: "", img: "CollectionsImages/TEMPOVAN1.jpg", img1: "CollectionsImages/TEMPOVAN2.jpg", img2: "CollectionsImages/TEMPOVAN3.jpg" },
 { name: "TEMPO TRAVELLER 12+1 SEATER", type: "non", price: "3999", brand: "Force", idval: "large", time: "8HRS/80KMS", category: "Van", year: "", img: "CollectionsImages/TEMPOTRAVELLER1.jpg", img1: "CollectionsImages/TEMPOTRAVELLER2.jpg", img2: "CollectionsImages/TEMPOTRAVELLER3.jpg" },
 { name: "BHARAT BENZ 25 seater", type: "non", price: "11999", brand: "", idval: "large", time: "8HRS/80KMS", category: "Bus", year: "", img: "CollectionsImages/BHARATBENZ1.jpg", img1: "CollectionsImages/BHARATBEZ2.jpg", img2: "CollectionsImages/BHARATBENZ3.jpg" },
 { name: "BHARAT BENZ 35 seater", type: "non", price: "14999", brand: "", idval: "large", time: "8HRS/80KMS", category: "Bus", year: "", img: "CollectionsImages/BHARATBENZ1.jpg", img1: "CollectionsImages/BHARATBEZ2.jpg", img2: "CollectionsImages/BHARATBENZ3.jpg" },
