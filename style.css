@@ -1640,6 +1640,7 @@ a {
     width: 22%;
     height: 80%;
     overflow: hidden;
+    
 }
 
 #address_box>h1 {
@@ -1658,7 +1659,6 @@ a {
     font-size: 1.1vw;
     font-weight: 400;
     line-height: 1.5vw;
-    /* margin-bottom: vw; */
     color: white;
     text-decoration: none;
 }
@@ -1692,7 +1692,7 @@ a {
 
 .review-section {
     width: 100%;
-    height: 160vh;
+    min-height: 160vh;
     z-index: 1;
     background-color: #f7fcff;
     /* color: white; */

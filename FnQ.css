@@ -12,11 +12,21 @@ html {
     color: #000000;
     /* background-color: #000; */
     background-color: #dcf6f840;
+    position: relative;
+    overflow-x: hidden;
 }
+
+/* .cont_of_logo{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+} */
 
 .faqsec {
     width: 100%;
     height: auto;
+    /* overflow: hidden ; */
     position: relative;
     padding-bottom: 5vw;
 }
@@ -35,6 +45,7 @@ html {
     opacity: .2;
     background-repeat: no-repeat;
 }
+
 .bgcover_logo1 {
     width: 50vw;
     height: 50vh;
@@ -49,6 +60,7 @@ html {
     opacity: .2;
     background-repeat: no-repeat;
 }
+
 .title {
     font-size: 50px;
     text-align: center;
@@ -86,18 +98,22 @@ html {
     cursor: pointer;
 }
 
-.question span{
+.question span {
     transition: cubic-bezier(0.19, 1, 0.22, 1) .3s;
 }
-.question button:hover{
+
+.question button:hover {
     background-color: #ffb68555;
 }
+
 .question button:hover span {
     margin-left: 1vw;
 }
+
 .question button:hover .crle {
     margin-left: 1vw;
 }
+
 .question span {
     /* width: 40vw; */
     text-align: left;
@@ -113,7 +129,7 @@ html {
     align-items: center;
     font-size: .8vw;
     justify-content: center;
-    transition:  cubic-bezier(0.19, 1, 0.22, 1) .3s;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .3s;
 }
 
 .question p {
@@ -147,4 +163,30 @@ html {
 
 .question button .d-arrow.rotate {
     transform: rotate(180deg);
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .title {
+        font-size: 7vw;
+    }
+
+    .crle {
+        width: 8vw;
+        height: 8vw;
+        font-size: 3vw;
+    }
+
+    .question span {
+        width: 74vw;
+    }
+    .bgcover_logo1{
+        left: 67%;
+            scale: 1.6;
+            top: 23%;
+            opacity: 0.1;
+    }
+
 }
