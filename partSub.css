@@ -314,7 +314,7 @@ body {
 
 .car_type_subscribe {
     width: 100%;
-    height: 135vh;
+    min-height: 165vh;
     padding-bottom: 3vw;
     background-color: #e4e4e4;
     display: flex;
@@ -324,37 +324,69 @@ body {
     flex-direction: column;
 }
 
-.car_type_subscribe h1 {
-    font-size: 3vw;
-    text-align: center;
-}
 
 .car_type_subscribe h1 span {
     color: #f5b754;
 }
 
 .car_card_clickme {
-    width: 90%;
-    height: 86%;
-    /* gap: 20px; */
+    width: 80%;
+    /* background-color: #05158e; */
+    height: auto;
+    gap: 70px;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    /* align-items: center; */
+    justify-content: center;
     flex-wrap: wrap;
 }
+.container_cate_clickme{
+    padding: 1vw;
+    box-shadow: 0px 0px 10px rgb(91, 91, 91);
+    border-radius: 3px  ;
+    background-color: #ffffff;
+}
+.container_cate_clickme h6{
+    font-size: 1.2vw;
+    /* letter-spacing: 1px; */
+    color: #05158e;
+}
+.container_cate_clickme i{
+    font-size: 1.6vw;
+    margin-right: .5vw;
+    color: #f5b754;
+}
+.terms_conditions{
+    position: absolute;
+    right: 0;
+    top: 10%;
+    font-size: 1vw;
+    color: #05158e;
+}
+.card_clickme_dets{
+    padding-top: .8vw;
+    width: 100%;
+    position: relative;
+}
+.card_clickme_dets h1 {
+    color: #03093a;
+    margin-bottom: .5vw;
+    margin-left: .1vw;
+    font-size: 2.2vw;
 
+}
 .card_clickme {
-    width: 37vw;
-    height: 45vh;
+    width: 30vw;
+    height: 40vh;
     /* color: #fff; */
     overflow: hidden;
     border-radius: 3px;
+    
     /* box-shadow: 0px 0px 10px 1px #3b3b3bcb; */
 }
 
 .car_image_holder {
-    width: 37vw;
-    height: 45vh;
+    width: 30vw;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -385,26 +417,7 @@ body {
     transform: scale(1.03);
 }
 
-.car_image_holder:hover h1 {
-    background-color: #000000c0;
-}
 
-.car_image_holder h1 {
-    /* background-color: #00000084; */
-    transition: cubic-bezier(0.19, 1, 0.22, 1) .4s;
-    width: 100%;
-    color: #ffffff;
-    font-size: 2.2vw;
-
-}
-
-.car_image_holder p {
-    margin: 1vw;
-    text-align: center;
-    font-size: 1.1vw;
-    color: #fff;
-    /* background-color: #00000084; */
-}
 
 
 @media (max-width:600px) {
