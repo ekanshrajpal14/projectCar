@@ -370,13 +370,11 @@ input {
     /* background-color: #ffffff7a; */
     position: relative;
     width: 24vw;
-    min-height: 63vh;
+    height: auto;
     border-radius: 6px;
     display: flex;
-    padding-bottom: .5vw;
-    /* padding: 1vw ; */
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* align-items: left; */
     /* margin-bottom: 3vw; */
     box-shadow: 0px 0px 10px rgb(199, 199, 199);
@@ -385,149 +383,10 @@ input {
     text-transform: capitalize;
 }
 
-/* .carsinfo::before{
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  background-color: #ddd;
-  top: -2vw;
-  left: 0;
-} */
+
 .carsinfo:nth-child(1)::before {
     display: none;
 }
-
-.carinfoleft {
-    width: 100%;
-    height: 55%;
-    padding: 1vw 2vw;
-
-    /* background-color: aqua; */
-}
-
-.carinfoleftname {
-    width: 100%;
-    border-bottom: 1px solid #ddd;
-}
-
-.carinfoleftname>h1 {
-    padding: 0.5vw 1vw;
-    font-size: 1.8vw;
-    /* font-family:; */
-    font-weight: 600;
-}
-
-.carinfoleftcont {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 60%;
-    display: flex;
-    overflow: hidden;
-    flex-wrap: wrap;
-
-    padding: 0.5vw 1vw;
-    padding-top: 1vw;
-    /* background-color: rgb(183, 30, 30); */
-    justify-content: space-between;
-    /* justify-content: space-around; */
-
-}
-
-.carinfoleftdets>h3 {
-    font-size: 1.3vw;
-    opacity: 0.9;
-    font-weight: 500;
-    padding-top: 0.5vw;
-    padding-left: 1vw;
-}
-
-.carinfoleftcall {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 15%;
-    display: flex;
-    padding: 0.5vw;
-
-    /* background-color: aqua; */
-    justify-content: space-between;
-    align-items: center;
-    /* margin-top: 2vw; */
-    /* justify-content:center ; */
-    /* background-color: aqua; */
-}
-
-.carinfoleftcall>h2 {
-    font-size: 1.2vw;
-    /* opacity: 0.8; */
-    font-weight: 600;
-    background-color: #f3b34c;
-    padding-top: 0.7vw;
-    padding-bottom: 0.7vw;
-    padding-left: 1.5vw;
-    padding-right: 4vw;
-    color: #010f4e;
-
-    border-radius: 10px;
-    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-
-    /* clip-path: polygon(84% 0, 100% 50%, 83% 99%, 0% 100%, 14% 50%, 0% 0%); */
-    /* clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%); */
-}
-
-.carinfoleftcall>a {
-    width: fit-content;
-    height: fit-content;
-    padding: 0.8vw 2.5vw;
-    background-color: #010f4e;
-
-
-    text-decoration: none;
-    border-radius: 10px;
-    font-weight: 500;
-    /* position: relative; */
-    /* overflow: hidden; */
-    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.8s;
-    letter-spacing: 0.2px;
-    color: #eaf1f3;
-}
-
-.carinfoleftcall>a:hover {
-    background-color: #f5b754;
-    color: rgb(0, 11, 81);
-    box-shadow: 5px 5px 0px #010f4e;
-}
-
-.contenthead {
-    flex-wrap: wrap;
-    flex-shrink: 0;
-    /* background-color: aqua; */
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-between;
-    width: 40%;
-    height: 12%;
-
-
-    margin-bottom: 0.5vw;
-}
-
-.contenthead>h3 {
-    font-size: 1vw;
-    font-weight: 500;
-    opacity: 0.8;
-}
-
-.contenthead>h5 {
-    opacity: 0.7;
-    font-size: 1vw;
-    font-weight: 500;
-}
-
-
-
 
 
 .carinforight {
@@ -605,12 +464,12 @@ input {
 
 .carinfocont {
     width: 100%;
-    height: 39%;
+    height: auto;
     gap: 1vw;
     position: relative;
-    padding: 0 1.2vw;
+    padding: 0vw 1.2vw;
     /* padding-left: 1.2vw; */
-    /* padding-bottom: 5vw; */
+    padding-bottom: 1.2vw;
     display: flex;
     /* justify-content: center; */
     /* align-items: center; */
@@ -638,7 +497,7 @@ input {
     div {
         /* justify-content: center; */
         display: flex;
-        gap: .8vw;
+        gap: 1vw;
     }
 
     div button>img {

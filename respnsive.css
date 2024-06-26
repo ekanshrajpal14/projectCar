@@ -370,7 +370,7 @@
 
     .carsinfo {
         width: 43vw;
-        min-height: 32vh;
+        height:auto;
         justify-content: space-between;
         padding-bottom: 0;
 
@@ -411,7 +411,10 @@
     }
 
     .carinfocont {
-        height: 38%;
+        min-height: 10vh;
+            padding: 0 1.7vw;
+            padding-bottom: 1vh;
+            gap: 1.2vw;
 
         h1 {
             font-size: 4.4vw;

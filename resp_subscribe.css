@@ -1,6 +1,6 @@
 @media (max-width:600px) {
     .part .mainsec {
-        height: 55vh;
+        height: 61vh;
     }
 
     .part #imgbox {
@@ -40,13 +40,33 @@
         }
     }
 
-    .left_subs .common_part_left h1 {
-        font-size: 6.8vw;
+    .animated_car_mobile {
+        display: block;
+        background-image: url(./UpdatedImages/animated.png);
+        width: 45vw;
+        height: 19vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 0;
+        bottom: -10%;
+        z-index: 99;
     }
 
+    .left_subs .common_part_left h1 {
+        font-size: 6.8vw;
+        line-height: 35px;
+    }
+
+
+
     .left_subs .part_two_why_sub {
-        height: 50%;
+        height: 60%;
         width: 80%;
+    }
+
+    .left_subs .part_one_why_sub {
+        height: 15%;
     }
 
     .left_subs .part_three_why_sub button {
@@ -56,12 +76,20 @@
 
     .left_subs {
         width: 50%;
-        height: 69vh;
-        padding-top: 28vw;
+        height: 82vh;
+        padding-top: 20vw;
+        overflow: visible;
+        gap: 0;
     }
 
     .left_subs .part_two_why_sub p {
         font-size: 2.6vw;
+    }
+
+    .right_subs {
+        z-index: 99;
+        position: relative;
+
     }
 
     .subs_data_box p {
@@ -69,14 +97,27 @@
     }
 
     .subs_data_box {
-        padding: 18px;
+        padding: 14px;
         border-radius: 21px;
-        width: 177px;
+        width: 43vw;
     }
 
     .subs_data_box_two {
         right: 5%;
-        top: 15%;
+        top: 19%;
+    }
+
+
+
+    .subs_data_box_four {
+        left: 25%;
+            width: 40vw;
+        bottom: 12%;
+    }
+
+    .subs_data_box_three {
+        right: 10%;
+        top: 40%;
     }
 
     .subs_data_box_one {
@@ -103,14 +144,18 @@
     .part .maintwo {
         min-height: 134vh;
         padding-top: 15vw;
-        
+
 
         & .maintwobrand {
+            flex-wrap: wrap;
+            border-radius: 7px;
             & div {
                 img {
-                    transform: scale(0.3);
+                    transform: scale(0.4);
                 }
+
                 height: 12vh;
+                width: 30vw;
 
                 border: none;
             }
@@ -133,6 +178,8 @@
 
     .part .maintwobtm {
         margin-top: 15vw;
+        height: auto;
+        padding-bottom: 5vw;
 
         p {
             font-size: 3.1vw;
@@ -144,13 +191,14 @@
 
         .main2btmdiv {
             width: 95%;
-            height: 100%;
+            height: auto;
+            gap: 5vh;
             flex-direction: column;
         }
 
         & .A-divs {
 
-            width: 65%;
+            width: 59%;
             height: 31%;
 
             div {
@@ -203,5 +251,6 @@
     .left_subs .part_three_why_sub a {
         font-size: 3vw;
         padding: 1.6vw 3vw;
+        margin-top: 10vw;
     }
 }

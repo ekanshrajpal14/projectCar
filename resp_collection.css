@@ -83,8 +83,10 @@
 
     .carsinfo {
         width: 43vw;
-        min-height: 32vh;
+        border-radius: 0;
+        height:auto;
     }
+    
 
     .nav-btn {
         height: 22px;
@@ -106,9 +108,16 @@
         height: 19vh;
         overflow: hidden;
     }
+    .imagebox{
+        padding: 1.5vw;
+    }
+    
 
     .carinfocont {
-        height: 37%;
+        min-height:10vh;
+        padding: 0 1.7vw;
+        padding-bottom: 1vh;
+        gap: 1.2vw;
         h1 {
             font-size: 4.4vw;
             font-weight: 600;
@@ -125,7 +134,9 @@
         }
 
         .TnC {
-            top: 29%;
+            top: 18%;
+            right: -6%;
+            transform: rotate(88deg);
             font-size: 1.3vw;
         }
 
@@ -152,9 +163,9 @@
 
     }
 
-    #large {
+    /* #large {
         height: 17vh !important;
-    }
+    } */
 
     
 }
