@@ -111,7 +111,7 @@
 
     .subs_data_box_four {
         left: 25%;
-            width: 40vw;
+        width: 40vw;
         bottom: 12%;
     }
 
@@ -149,6 +149,7 @@
         & .maintwobrand {
             flex-wrap: wrap;
             border-radius: 7px;
+
             & div {
                 img {
                     transform: scale(0.4);
@@ -252,5 +253,34 @@
         font-size: 3vw;
         padding: 1.6vw 3vw;
         margin-top: 10vw;
+    }
+
+    .container_cate_clickme {
+        padding: 3vw;
+    }
+
+    .car_type_subscribe {
+        width: 100%;
+        min-height: 180vh;
+    }
+
+    .card_clickme_dets h1 {
+        font-size: 7vw;
+    }
+
+    .container_cate_clickme h6 {
+        font-size: 3.5vw;
+    }
+
+    .terms_conditions {
+        font-size: 3vw;
+    }
+
+    .car_card_clickme {
+        gap: 50px;
+    }
+
+    .container_cate_clickme i {
+        font-size: 4vw;
     }
 }

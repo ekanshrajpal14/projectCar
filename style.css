@@ -584,7 +584,6 @@ a {
     height: 45vh;
     position: relative;
     flex-direction: column;
-    /* background-image: url(./images/bg_new.jpg); */
     background-size: cover;
     /* background-color: #1B1B1B; */
     /* color: #fff; */
@@ -2101,7 +2100,7 @@ a {
     }
 
     #parallaxsection {
-        background: url('https://images.pexels.com/photos/1157417/pexels-photo-1157417.jpeg') repeat fixed 100%;
+        background: url('./images/Parallax_pic.jpeg') repeat fixed 100%;
         background-position: center;
         background-size: cover;
         display: flex;
