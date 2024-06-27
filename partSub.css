@@ -410,7 +410,7 @@ body {
 }
 
 .car_image_holder4 {
-    background-image: url(./UpdatedImages/car_type4.avif);
+    background-image: url(./UpdatedImages/luxury_subscribe.jpg);
 }
 
 .car_image_holder:hover {
@@ -470,5 +470,5 @@ body {
         font-size: 4vw;
     }
 
-    
+
 }
